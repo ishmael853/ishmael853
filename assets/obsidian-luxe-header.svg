@@ -1,1 +1,180 @@
-C:\Users\ishma\Downloads\obsidian-luxe-github-readme\obsidian_luxe_github\assets\obsidian-luxe-header.svg
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="420"
+     viewBox="0 0 1200 420"
+     role="img">
+
+<title>Ishmael Mogwasi — Obsidian Luxe</title>
+
+<defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#07080B"/>
+    <stop offset="55%" stop-color="#0C0E15"/>
+    <stop offset="100%" stop-color="#080B16"/>
+  </linearGradient>
+
+  <linearGradient id="luxury" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#F1D6A0"/>
+    <stop offset="40%" stop-color="#C69A55"/>
+    <stop offset="72%" stop-color="#315EFF"/>
+    <stop offset="100%" stop-color="#1738B8"/>
+  </linearGradient>
+
+  <linearGradient id="light" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#F4D9A5" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#FFF4D8" stop-opacity=".9"/>
+    <stop offset="65%" stop-color="#6D8CFF" stop-opacity=".3"/>
+    <stop offset="100%" stop-color="#315EFF" stop-opacity="0"/>
+  </linearGradient>
+
+  <radialGradient id="goldGlow">
+    <stop offset="0%" stop-color="#D8B36D" stop-opacity=".28"/>
+    <stop offset="100%" stop-color="#D8B36D" stop-opacity="0"/>
+  </radialGradient>
+
+  <radialGradient id="blueGlow">
+    <stop offset="0%" stop-color="#285BFF" stop-opacity=".28"/>
+    <stop offset="100%" stop-color="#285BFF" stop-opacity="0"/>
+  </radialGradient>
+
+  <filter id="blur">
+    <feGaussianBlur stdDeviation="22"/>
+  </filter>
+
+  <style>
+    .glint {
+      animation: glide 10s ease-in-out infinite;
+    }
+
+    .ribbon {
+      animation: breathe 8s ease-in-out infinite alternate;
+      transform-origin: center;
+    }
+
+    @keyframes glide {
+      0% {
+        transform: translateX(-550px);
+        opacity: 0;
+      }
+      15% { opacity: .7; }
+      75% { opacity: .65; }
+      100% {
+        transform: translateX(1450px);
+        opacity: 0;
+      }
+    }
+
+    @keyframes breathe {
+      from {
+        transform: translateY(-6px) scaleY(.92);
+        opacity: .65;
+      }
+      to {
+        transform: translateY(8px) scaleY(1.08);
+        opacity: 1;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .glint, .ribbon {
+        animation: none;
+      }
+    }
+  </style>
+</defs>
+
+<!-- Obsidian background -->
+<rect width="1200" height="420" rx="18"
+      fill="url(#background)"/>
+
+<!-- Atmospheric lighting -->
+<ellipse cx="180" cy="55" rx="430" ry="240"
+         fill="url(#goldGlow)"/>
+
+<ellipse cx="1090" cy="365" rx="420" ry="250"
+         fill="url(#blueGlow)"/>
+
+<!-- Flowing gradient ribbon -->
+<path d="M-40 335 C180 220 310 390 520 285 S900 105 1240 190"
+      fill="none"
+      stroke="url(#luxury)"
+      stroke-width="28"
+      opacity=".18"
+      filter="url(#blur)"
+      class="ribbon"/>
+
+<path d="M-40 335 C180 220 310 390 520 285 S900 105 1240 190"
+      fill="none"
+      stroke="url(#luxury)"
+      stroke-width="2.5"
+      opacity=".9"
+      class="ribbon"/>
+
+<!-- Moving light sweep -->
+<g class="glint" filter="url(#blur)">
+  <rect x="-100" y="0" width="200" height="420"
+        fill="url(#light)"/>
+</g>
+
+<!-- Gradient borders -->
+<rect width="1200" height="5" fill="url(#luxury)"/>
+
+<path d="M80 385 H1120"
+      stroke="url(#luxury)"
+      stroke-width="1"
+      opacity=".5"/>
+
+<!-- Heading -->
+<text x="600" y="91"
+      text-anchor="middle"
+      fill="#D9C39A"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="13"
+      letter-spacing="4">
+  INDEPENDENT THINKING / SOFTWARE ENGINEERING / DIGITAL CREATION
+</text>
+
+<text x="600" y="190"
+      text-anchor="middle"
+      fill="#F4F1EA"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="60"
+      font-weight="700"
+      letter-spacing="1.5">
+  ISHMAEL
+</text>
+
+<text x="600" y="258"
+      text-anchor="middle"
+      fill="#F4F1EA"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="60"
+      font-weight="700"
+      letter-spacing="1.5">
+  MOGWASI.
+</text>
+
+<path d="M360 282 H840"
+      stroke="#777C89"
+      stroke-width="1"
+      opacity=".6"/>
+
+<text x="600" y="326"
+      text-anchor="middle"
+      fill="#E7E9EF"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="21"
+      font-weight="600">
+  Engineering ideas into meaningful digital experiences.
+</text>
+
+<text x="600" y="361"
+      text-anchor="middle"
+      fill="#B9AD96"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="11"
+      letter-spacing="3">
+  BUILD WITH INTENTION. SHIP WITH PRECISION.
+</text>
+
+</svg>
