@@ -21,7 +21,7 @@
 
 ## THE MINDSET
 
-I'm **Ishmael Mogwasi** — a Computer Scientist and software developer focused on building reliable systems, useful products, and meaningful digital experiences.
+I'm **𝓜𝓸𝓰𝔀𝓪𝓼𝓲   𝓘𝓼𝓱𝓶𝓪𝓮𝓵**,  a Computer Scientist and software developer focused on building reliable systems, useful products, and meaningful digital experiences.
 
 I enjoy working across the stack: shaping interfaces, engineering backend services, designing APIs, and connecting the pieces into software that solves real problems.
 
